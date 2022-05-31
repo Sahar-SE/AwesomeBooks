@@ -1,4 +1,4 @@
-import Book from '../book.js';
+import Book from '../modules/book.js';
 
 const saveBooksLocally = () => {
   localStorage.setItem('books', JSON.stringify(Book.books));

@@ -1,4 +1,4 @@
-import saveBooksLocally from '../moduls/saveBooks.js';
+import saveBooksLocally from '../saveBooks.js';
 import Book from '../book.js';
 
 const bookList = document.querySelector('#book-list');
