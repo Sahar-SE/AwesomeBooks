@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Awesome</title>
+    <!-- Add bootstarp -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+  <header>
+      <nav class="navbar navbar-expand-md navbar-light col-md-12 col-lg-12 s">
+      <div class="navbar-brand text-light"><i>Awesome Book</i></div>
+      <button type="submit" class=" navbar-toggler " data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon color-light"></span></button>
+      <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav offset-lg-8 offset-md-2 align-items-center">
+        <li class="nav-item ">
+          <a class="nav-link text-light" href="#" id="list">List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#" id="add">Add</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#" id="contact">Contact</a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+    <!-- List Section -->
+  <section class="list-section">
+    <h1>Awesome books list</h1>
+    <div class="books"></div>
+  </section>
+
+  <!-- Add Books Section -->
+    <section class="add-section hidden">
+      <h1>Add books</h1>
+      <form method="post" id="book-form">
+          <label>
+              <input id="title" type="text" placeholder="Enter book name" name="title" required>
+          </label>
+          <br>
+          <label>
+              <input  id="author" type="text" placeholder="Enter author name" name="author" required>
+            </label>
+            <br>
+          <button type="submit" onclick="">Add</button>
+      </form>
+    </section>
+
+ <!-- Add Books Section -->
+ <section class="contact-section hidden">
+<h1 class="contact-header">Contact Us</h1>
+<p class="contact-p">If you have any question please contact us:</p>
+<ul>
+    <li><a href="ms@mail.com">contact us via Email</a></li>
+    <li><a href="facebook.com">contact us on Facebook</a></li>
+    <li><a href="Twitter.com">contact us via Twitter</a></li>
+</ul>
+
+
+
+ </section>
+
+<footer class="footer">
+    <h4>copyright to Mohammed & Sahar</h4>
+</footer>
+ <!-- js file -->
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://moment.github.io/luxon/global/luxon.js"></script>
+
+</body>
+</html>
