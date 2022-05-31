@@ -1,5 +1,5 @@
 import saveBooksLocally from '../saveBooks.js';
-import Book from '../book.js';
+import Book from '../modules/book.js';
 
 const bookList = document.querySelector('#book-list');
 const appendBook = (book, index) => {
