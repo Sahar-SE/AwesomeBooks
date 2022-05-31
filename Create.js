@@ -1,3 +1,4 @@
+import Store from './Store.js'
 // Creating the list
 export default class CreatBook {
   // display books
