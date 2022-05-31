@@ -2,7 +2,7 @@
 
 import Store from './Store.js';
 import CreatBook from './Create.js';
-import addTime from './DT.js'
+import addTime from './DT.js';
 
 // book class
 class Books {
@@ -11,8 +11,6 @@ class Books {
     this.author = author;
   }
 }
-
-
 
 // display books
 document.addEventListener('DOMContentLoaded', CreatBook.displayBooks);
