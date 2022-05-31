@@ -12,6 +12,8 @@ class Books {
   }
 }
 
+setInterval(addTime, 1000);
+
 // display books
 document.addEventListener('DOMContentLoaded', CreatBook.displayBooks);
 
